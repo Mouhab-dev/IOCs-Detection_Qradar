@@ -6,7 +6,6 @@ Qradar: IOCs Detection Script is a python script to help you search for IOCs in 
 * [General info](#general-info)
 * [Libraries](#libraries)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Test](#test)
 
 ## General info
@@ -44,42 +43,6 @@ To run this project, install all the required libraries first then confiure the 
 ```
 $ python qradar_iocs.py
 ```
-
-## Usage
-Run the following command to display help message
-```
-hashy.py -h
-```
-or
-```
-hashy.py --help
-```
-A help message will appear with all required arguments the program needs to run:
-```
-usage: hashy.py [-h] [-v] -hf MD5:SHA1:blake2b [MD5:SHA1:blake2b ...]
-                (-cf <file path> <file path> | -f <file path> | -s "String")
-
-Hashy is a CLI program to hash files, compare two files (integrity check),
-strings.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -v, --version         display current version of Hashy
-  -hf MD5:SHA1:blake2b [MD5:SHA1:blake2b ...]
-                        the required hash function.
-  -cf <file path> <file path>
-                        check hash of two files for a match using the provided
-                        hash function.
-  -f <file path>        calculate hash for a file using the provided hash
-                        function.
-  -s "String"           calculate hash for a string using the provided hash
-                        function (string inside " " is recommended).
-
-Find me on Github: https://www.github.com/Mouhab-dev
-```
-* -hf is essential for the script to run
-* -cf / -f / -s :
-only one of the previous arguments followed by the appropriate input is required to run the script.
 
 ## Test
 
