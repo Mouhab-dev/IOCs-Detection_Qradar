@@ -38,6 +38,7 @@ To run this project, install all the required libraries first then confiure the 
 
 * Update the **host** variable with your Qradar's IP Address.
 * Configure the **search_period** variable to your liking, please follow qradar's documentation in order not to break the search query.
+* Adjust each search query to your corresponding field name in your environment
 * Then, Run the script using the following command:
 ```
 $ python qradar_iocs.py
@@ -81,10 +82,10 @@ only one of the previous arguments followed by the appropriate input is required
 
 ## Test
 
-Tested with a string being hashed with md5,sha1 and sha256 algorithms:
+Tested with a set of IOCs:
 
 ```
-C:\Users\<current user>\Desktop> python hashy.py -hf md5 sha1 sha256 -s "hello world it's hashy here" 
+C:\Users\<current user>\Desktop> python qradar_iocs.py
 Hashing string ...
 
 Algorithm:         Hash value:
