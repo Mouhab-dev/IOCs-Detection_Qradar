@@ -18,22 +18,29 @@ The Script can deal with the following types of IOCs:
 * SHA256
 * URL
 * Domain
-* Sender Email
-* Sender
+* IP Address
+* Email Sender
+* Sender Domain
 
 ## Libraries
 Project is created with:
-* hashlib library.
-* argparse library.
+* base64.
+* json.
+* requests.
+* getpass.
+* csv.
+* re.
+* pandas.
 * python 3.6 or higher.
 
 ## Setup
-To run this project, install all the required libraries first then run the python script:
+To run this project, install all the required libraries first then confiure the python script as follows:
+
+* Update the **host** variable with your Qradar's IP Address.
+* Configure the **search_period** variable to your liking, please follow the qradar's documentation in order not to break the search query.
 
 ```
-$ pip install hashlib
-$ pip install argparse
-$ python hashy.py -hf (hash functions) [-f <file path> | -cf <file path> <file path> | -s <string>]
+$ python qradar_iocs.py
 ```
 
 ## Usage
