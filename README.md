@@ -38,8 +38,9 @@ To run this project, install all the required libraries first then confiure the 
 
 * Update the **host** variable with your Qradar's IP Address.
 * Configure the **search_period** variable to your liking, please follow qradar's documentation in order not to break the search query.
-* Adjust each search query to your corresponding field name in your environment
+* Adjust **each search query** to your corresponding field name in your environment.
 * Then, Run the script using the following command:
+
 ```
 $ python qradar_iocs.py
 ```
@@ -88,13 +89,12 @@ Tested with a set of IOCs:
 C:\Users\<current user>\Desktop> python qradar_iocs.py
 Welcome to 
  __   __        __        __         __   __   __      __   ___ ___  ___  __  ___    __       
-/  \ |__)  /\  |  \  /\  |__) .   | /  \ /  ` /__`    |  \ |__   |  |__  /  `  |  | /  \ |\ | 
-\__X |  \ /~~\ |__/ /~~\ |  \ .   | \__/ \__, .__/    |__/ |___  |  |___ \__,  |  | \__/ | \| 
-                                                                                 Version: 1.0                                                                                                   
+/  \ |__)  /\  |  \  /\  |__) .   | /  \ /  ` /__`    |  \ |__   |  |__  /  `  |  | /  \ |\ |
+\__X |  \ /~~\ |__/ /~~\ |  \ .   | \__/ \__, .__/    |__/ |___  |  |___ \__,  |  | \__/ | \|
+                                                                                 Version: 1.0
                                                                            By: Mohab El-Banna
                                                                            Github: Mouhab-dev
                                                                            
-Username:
 Password:
 ```
 
