@@ -37,8 +37,8 @@ Project is created with:
 To run this project, install all the required libraries first then confiure the python script as follows:
 
 * Update the **host** variable with your Qradar's IP Address.
-* Configure the **search_period** variable to your liking, please follow the qradar's documentation in order not to break the search query.
-
+* Configure the **search_period** variable to your liking, please follow qradar's documentation in order not to break the search query.
+* Then, Run the script using the following command:
 ```
 $ python qradar_iocs.py
 ```
