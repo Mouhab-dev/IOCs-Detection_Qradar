@@ -86,15 +86,17 @@ Tested with a set of IOCs:
 
 ```
 C:\Users\<current user>\Desktop> python qradar_iocs.py
-Hashing string ...
-
-Algorithm:         Hash value:
-------------       --------------------------------------
-md5                ba672a8326b0d3333c7296e73e0ec0ed
-sha1               2e561e67dfe68f64d63204c7e96f0dccaec5cb00
-sha256             eb43f53ec1b2d25c0361574e99b4257a5a84d123f7e265e0434e03789276d460
-
-Process Finished
+Welcome to 
+ __   __        __        __         __   __   __      __   ___ ___  ___  __  ___    __       
+/  \ |__)  /\  |  \  /\  |__) .   | /  \ /  ` /__`    |  \ |__   |  |__  /  `  |  | /  \ |\ | 
+\__X |  \ /~~\ |__/ /~~\ |  \ .   | \__/ \__, .__/    |__/ |___  |  |___ \__,  |  | \__/ | \| 
+                                                                                 Version: 1.0                                                                                                   
+                                                                           By: Mohab El-Banna
+                                                                           Github: Mouhab-dev
+                                                                           
+Username:
+Password:
 ```
+
 
 
